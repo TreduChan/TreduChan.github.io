@@ -1,28 +1,70 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-
-.w3-row-padding img {margin-bottom: 12px}
-
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: rgb(16, 128, 192);}
-
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-
-
-.profile-image
-{
-    width: 100px;
- 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
 }
 
-.flex-container
-{
-    
-    color: blueviolet;
+.profile-image {
+  width: 100px;
 }
 
-a {
-    text-decoration: none;
+p,
+a,
+li,
+h2,
+h3 {
+  font-size: medium;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: left;
+}
+
+hr {
+  width: 200px
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.navbutton {
+  color: whitesmoke;
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.1em;
+  width: 5em;
+  cursor: pointer;
+}
+
+.navbutton:hover,
+.navbutton:active {
+  background: rgba(253, 253, 253, 0.514);
+}
+
+.navbutton a {
+  color: whitesmoke;
+}
+
+.download-button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(4, 37, 68);
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.1em;
+  width: 10em;
+  cursor: pointer;
+}
+
+.download-button:hover,
+.download-button:active {
+  background: rgba(0, 153, 255, 0.514);
 }
