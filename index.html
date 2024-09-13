@@ -3,79 +3,79 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/index.css" type="text/css">
 <script src="/js/scripts.js"></script>
 
-<body class="w3-black">
-
-    <div class="w3-padding-large" id="main">
-        <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Rio Alasuvanto.</h1>
-            <h3> Software Developer.</h3>
+<body>
+    <div class="main">
+        <!-- Header Section -->
+        <header class="main-header">
+            <h1>I'm Rio Alasuvanto.</h1>
+            <div class="profile-pic">    
+                <img class="borzoi" src="/images/Borzoi.jpg" alt="kiva kuva">
+            </div>
         </header>
 
         <!-- About Section -->
-        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-            <h2 class="w3-text-light-grey">My Name</h2>
-            <hr style="width:200px" class="w3-opacity">
+        <div class="content-box" id="content-section">
+            <h2>My Name</h2>
+            <hr class="line">
             <p>
-                I'm a 19-year-old boy from Tampere who has a good understanding of digital devices and excels in English. I'm a fast learner, socially adaptable, and get along well with others. In my free time, I enjoy hanging out with friends.
+                I'm a 19-year-old boy from Tampere who has a good understanding of digital devices and excels in
+                English. I'm a fast learner, socially adaptable, and get along well with others. In my free time, I
+                enjoy hanging out with friends.
             </p>
+        </div>
 
-            <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-            <hr style="width:200px" class="w3-opacity">
+        <!--Skill Section-->
+        <div class="content-box" id="content-section">
+            <h2>My Skills</h2>
+            <hr class="line">
 
             <ul class="skills">
-                <li class="skills-item">Web development: HTML, CSS, JavaScript, React</li>
-                <li class="skills-item">Database management: SQL, MySQL</li>
-                <li class="skills-item">Operating systems: Windows</li>
-                <li class="skills-item">Troubleshooting and problem-solving</li>
-                <li class="skills-item">Strong attention to detail and organization</li>
-                <li class="skills-item">Effective verbal and written communication</li>
-                <li class="skills-item">Adaptability and quick learning</li>
+                <li class="list-item">Web development: HTML, CSS, JavaScript, React</li>
+                <li class="list-item">Database management: SQL, MySQL</li>
+                <li class="list-item">Operating systems: Windows</li>
+                <li class="list-item">Troubleshooting and problem-solving</li>
+                <li class="list-item">Strong attention to detail and organization</li>
+                <li class="list-item">Effective verbal and written communication</li>
+                <li class="list-item">Adaptability and quick learning</li>
             </ul>
         </div>
 
-
-        <div class="w3-padding-64 w3-content" id="photos">
-            <h2 class="w3-text-light-grey">My Projects</h2>
-            <hr style="width:200px" class="w3-opacity">
+        <!--Projects section-->
+        <div class="content-box" id="content-section">
+            <h2>My Projects</h2>
+            <hr class="line">
             <ul>
-                <li>
+                <li class="list-item">
                     <a href="./fanikauppa/index.html" class="list-item">Developed a web-based application using React and HTML/CSS, showcasing effective front-end design and back-end functionality.</a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href="https://play.unity.com/mg/other/webgl-builds-298721" class="list-item">Created a platformer using Unity</a>
                 </li>
             </ul>
-
-
-            <!-- Contact Section -->
-            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-                <h2 class="w3-text-light-grey">Contact Me</h2>
-                <hr style="width:200px" class="w3-opacity">
-
-                <div class="w3-section">
-                    <p>
-                        <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tampere, Finland
-                    </p>
-                    <p>
-                        <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +358401397588
-                    </p>
-                    <p>
-                        <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Email:rioalasuvanto@gmail.com
-                    </p>
-                    <button class="download-button">
-                        <a href="/images/Resume-Rio-Alasuvanto.pdf" download>
-                        <i class="">Download Resume</i>
-                    </button>
-                </div>
-            </div>
         </div>
 
+        <!-- Contact Section -->
+        <div class="content-box" id="content-section">
+            <h2>Contact Me</h2>
+            <hr class="line">
+            <p>
+                Tampere, Finland
+            </p>
+            <p>
+                &#9742;Phone: +358401397588
+            </p>
+            <p>
+                &#9993; Email:rioalasuvanto@gmail.com
+            </p>
+            <button class="download-button">
+                <a href="/images/Resume-Rio-Alasuvanto.pdf" download>
+                <p>Download Resume</p>
+            </button>
+        </div>
+    </div>
 </body>
 </html>
